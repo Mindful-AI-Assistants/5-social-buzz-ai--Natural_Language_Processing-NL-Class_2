@@ -47,9 +47,9 @@ A repository for research, implementation, and best practices with Gradient Boos
 > *Part of the Humanistic AI Research & Data Modeling Series — where data meets human insight.*
 >
 > <br>
-
-
-
+>
+> * [Embedding Projector](https://projector.tensorflow.org/)
+>
 
 
 <!--Confidentiality Statement-->
