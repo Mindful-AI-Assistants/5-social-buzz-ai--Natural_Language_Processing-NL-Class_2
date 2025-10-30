@@ -7,7 +7,7 @@
 
 <br>
 
-# <p align="center"> 4- Social [Buzz AI]() - Natural Language Processing (NLP) - [Class 1]()
+# <p align="center"> 5- Social [Buzz AI]() - Natural Language Processing (NLP) - [Class 2]()
 
 
 <br>
@@ -46,10 +46,11 @@ A repository for research, implementation, and best practices with Gradient Boos
 > * [1-social-buzz-ai-main](https://github.com/Mindful-AI-Assistants/1-social-buzz-ai-main)
 > *Part of the Humanistic AI Research & Data Modeling Series — where data meets human insight.*
 >
-> <br>
-
-
-
+> * [4- Social Buss: NLP - Class 1](https://github.com/Mindful-AI-Assistants/4-social-buzz-ai--Natural_Language_Processing-NL-Class_1) 
+> 
+> * [Embedding Projector](https://projector.tensorflow.org/)
+> 
+>
 
 
 <!--Confidentiality Statement-->
