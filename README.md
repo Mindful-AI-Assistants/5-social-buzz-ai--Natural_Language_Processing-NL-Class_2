@@ -7,7 +7,7 @@
 
 <br>
 
-# <p align="center"> 5- Social [Buzz AI]() - Natural Language Processing (NLP) - [Class 1]()
+# <p align="center"> 5- Social [Buzz AI]() - Natural Language Processing (NLP) - [Class 2]()
 
 
 <br>
