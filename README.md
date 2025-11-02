@@ -265,6 +265,44 @@ print("Codes for each word:", vetores)
 <br><br>
 
 
+## 6. Getting Our Messages (Loading Data)
+
+<br>
+
+**Why?** We need messages to play with!
+**What is it?** We get tweets from a file and see what kinds of feelings they talk about.
+**Code:**
+
+<br>
+
+```python
+import pandas as pd
+df = pd.read_csv("TweetsMg.csv")
+print("Columns:", df.columns)
+print("How many of each feeling:", df['Classificacao'].value_counts())
+print("First few messages:", df['Text'][:5])
+
+```
+
+<br><br>
+
+## 7. Cleaning Up Our Messages (Text Preprocessing)
+
+<br>
+
+**Why?** Some words (like “the”, “and”, “a”) don’t help. We clean them out so the computer doesn’t get confused.
+**What is it?** We use lists of *stopwords* to throw away those boring words.
+**Code:**
+
+<br>
+
+```python
+import nltk
+nltk.download('stopwords')
+stopwords = nltk.corpus.stopwords.words("portuguese")
+```
+
+<br><br>
 
 
 
