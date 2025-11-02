@@ -141,7 +141,7 @@ This notebook is like a **recipe book** for teaching computers how to understand
 
 <br>
 
-- [**Why?**]() Numbers help computers see words!
+- [**Why ?**]() Numbers help computers see words!
 
 - [**What is it?** We make some number sequences called *vectors*](). Then, we add, subtract, multiply and compare them. This is the building block for more magic later.
 
@@ -170,7 +170,7 @@ print("Dot Product", np.dot(vetor1, vetor3))
 
 <br>
 
-- [**Why?**]() To see if two words or sentences are "friends"—meaning they’re similar.
+- [**Why ?**]() To see if two words or sentences are "friends"—meaning they’re similar.
 
 - [**What is it?** We use special math called *cosine similarity*]() to compare.
 
@@ -198,9 +198,9 @@ print("Cosine Similarity (Library)", cosine_similarity([A], [B]))
 
 <br>
 
-- [**Why?**]() Computers need numbers for everything. Embeddings are like secret codes for words—each word gets its own code!
+- [**Why ?**]() Computers need numbers for everything. Embeddings are like secret codes for words—each word gets its own code!
 
-- [**What is it?**]() We use special files or libraries to get these codes and can ask things like “who is most similar to king,” or do word puzzles.
+- [**What is it ?**]() We use special files or libraries to get these codes and can ask things like “who is most similar to king,” or do word puzzles.
 
 - [**Code:**]()
 
@@ -274,7 +274,7 @@ print("Codes for each word:", vetores)
 
 <br>
 
-- [**Why?** We need messages to play with!]()
+- [**Why ?** We need messages to play with!]()
 
 - [**What is it?** We get tweets from a file and see what kinds of feelings they talk about.]()
 
@@ -297,9 +297,9 @@ print("First few messages:", df['Text'][:5])
 
 <br>
 
-- [**Why?** Some words (like “the”, “and”, “a”) don’t help. We clean them out so the computer doesn’t get confused.]()
+- [**Why ?**]() Some words (like “the”, “and”, “a”) don’t help. We clean them out so the computer doesn’t get confused.
 
-- [**What is it?** We use lists of *stopwords* to throw away those boring words.]()
+- [**What is it ?**]() We use lists of *stopwords* to throw away those boring words.
 
 - [**Code:**]()
 
@@ -365,9 +365,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 <br>
 
-- [**Why?** This is where we actually TEACH the computer!]()
+- [**Why ?**]() This is where we actually TEACH the computer!
 
-- [**What is it?** We use Naive Bayes—a special recipe that learns from examples.]()
+- [**What is it ?**]() We use Naive Bayes—a special recipe that learns from examples.
 
 - [**Code:**]()
 
