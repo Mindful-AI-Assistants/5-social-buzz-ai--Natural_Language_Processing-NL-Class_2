@@ -112,7 +112,22 @@
 -->
 
 
+## Table of Contents
 
+1. What Is This Notebook About? <br>
+2. Playing With Numbers (Vectors) <br>
+3. Finding Out If Two Things Are Alike (Cosine Similarity) <br>
+4. Using Secret Codes For Words (Word Embeddings) <br>
+5. Super-Secret Codes: Transformers and BERT <br>
+6. Getting Our Messages (Loading Data) <br>
+7. Cleaning Up Our Messages (Text Preprocessing) <br>
+8. Turning Words Into Numbers (Bag of Words) <br>
+9. Splitting Our Messages (Training and Testing) <br>
+10. Teaching Our Computer To Guess Feelings (Model Training) <br>
+11. Saving Our Computer’s Brain For Later (Model Persistence) <br>
+12. Asking The Computer To Guess For Us! (Interactive Prediction) <br>
+
+<br>
 
 
 
