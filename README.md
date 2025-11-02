@@ -93,99 +93,7 @@
 
 
 
-## [Overview]()
 
-This lesson introduces **vector representations for words, sentences, and documents**, covering both foundational mathematical operations and modern NLP techniques. The code is implemented in Python, utilizing libraries such as NumPy, scikit-learn, gensim, transformers, and pandas.  
-
-<br>
-
-## [Key Topics Covered]()
-
-<br>
-
-- [**Basic Vector Operations:**]()
-    - Creation of vectors using NumPy
-    - Addition, subtraction, and element-wise multiplication of vectors
-    - Dot product and cosine similarity calculations
- 
-<br>
-
-
-- [p**Cosine Similarity:**]()
-    - How to measure similarity between vectors, an essential method for many NLP tasks
-
- 
-<br>
-      
-- [**Word Embeddings:**]()
-    - Efficient representations for words using dense vectors
-    - Loading pre-trained models via safetensors, gensim, and Hugging Face
-    - Exploration of available models (Word2Vec, GloVe, FastText)
- 
-
-<br>
-  
-- [**Embeddings in Practice:**]()
-    - Finding similar words: `most_similar`
-    - Word analogies (e.g., king - man + woman = queen)
-
- 
-<br>
-
-- [**Advanced Embeddings:**]()
-    - Use of transformer models (BERT, HuggingFace)
-    - Tokenization and obtaining contextual word embeddings
-
- 
-<br>
-
-
-- [**Text Data Processing:**]()
-    - Loading and exploring a text dataset (`TweetsMg.csv`) with pandas
-    - Extracting columns, handling missing data, visualizing value counts
-
- 
-<br>
-
-- [**Text Vectorization \& Classification Pipeline:**]()
-    - Preprocessing: Removing stopwords using NLTK
-    - Vectorizing text with `CountVectorizer`
-    - Converting text to vectors and saving the output for later use
-
- 
-<br>
-
-- [**Label Encoding:**]()
-    - Factorizing text labels for model training
-
- 
-<br>
-
-- [**Train-Test Split:**]()
-    - Splitting dataset for model training and evaluation
-
- 
-<br>
-
-- [**Model Building and Evaluation:**]()
-    - Training a multinomial Naive Bayes classifier with scikit-learn
-    - Calculating classification accuracy on the test set
-
- 
-<br>
-
-- [**Model Persistence:**]()
-    - Saving trained models with pickle
-    - Loading persisted models and testing them on new data
-
- 
-<br>
-
-- [**Interactive Testing:**]()
-    - Providing code for user input to predict new example texts
-
- 
-<br><br>
 
 
 ## [Libraries Used]()
@@ -202,77 +110,31 @@ This lesson introduces **vector representations for words, sentences, and docume
 - `transformers`
 - `pickle`
 
-<br><br>
 
 
-## [Typical Workflow]()
 
 
-<br>
 
-1. [**Vector Arithmetic:**]()
-Learn operations between vectors and analyze similarities.
 
-2. [**Embeddings:**]()
-Load and use various word embedding models for vector representations.
 
-3. [**Text Data Loading:**]()
-Work with real-world tweet datasets, preprocess and vectorize them.
 
-4. [**Classification:**]()
-Train a Naive Bayes text classifier and evaluate, save, reload, and apply it interactively.
 
-<br><br>
 
-## [Example Code Snippets (from the lesson)]()
 
-<br>
 
-```python
-import numpy as np
-vetor1 = np.array([1, 2, 1, 4])
-vetor2 = np.zeros(4)
-vetor3 = np.ones(4)
-print("Vetor 1:", vetor1)
-print("Vetor 2:", vetor2)
-print("Vetor 3:", vetor3)
-print("Dot product:", np.dot(vetor1, vetor3))
-```
 
-<br>
 
-```python
-from sklearn.feature_extraction.text import CountVectorizer
-vectorizer = CountVectorizer(stop_words=stopwords)
-vetores = vectorizer.fit_transform(df['Text'])
-```
 
-<br>
 
-```python
-from sklearn.naive_bayes import MultinomialNB
-clf = MultinomialNB()
-clf.fit(X_train, y_train)
-accuracy = accuracy_score(y_test, clf.predict(X_test))
-```
 
-```python
-import pickle
-with open("model.pkl", "wb") as f:
-    pickle.dump(clf, f)
-```
 
-<br><br>
 
-## [How to Run]()
 
-- Install dependencies as shown in the notebook (`pip install ...`)
-- Prepare dataset (`TweetsMg.csv`)
-- Run the code cells sequentially in a Jupyter or Colab notebook
 
-<br><br>
 
-> **This lesson provides practical foundations for both traditional and modern NLP vectorization methods, text preprocessing pipelines, and supervised text classification.**
+
+
+
 
 
 
