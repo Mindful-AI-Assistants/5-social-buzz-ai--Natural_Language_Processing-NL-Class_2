@@ -143,7 +143,7 @@ This notebook is like a **recipe book** for teaching computers how to understand
 
 - [**Why ?**]() Numbers help computers see words!
 
-- [**What is it?**]() We make some number sequences called *vectors*. Then, we add, subtract, multiply and compare them. This is the building block for more magic later.
+- [**What is it ?**]() We make some number sequences called *vectors*. Then, we add, subtract, multiply and compare them. This is the building block for more magic later.
 
 - [**Code:**]()
 
@@ -274,10 +274,10 @@ print("Codes for each word:", vetores)
 
 <br>
 
-- [**Why ?** We need messages to play with!]()
+- [**Why ?**]() We need messages to play with!
 
-- [**What is it?** We get tweets from a file and see what kinds of feelings they talk about.]()
-
+- [**What is it ?**]() We get tweets from a file and see what kinds of feelings they talk about.
+ 
 - [**Code:**]()
 
 <br>
