@@ -373,13 +373,15 @@ print("Accuracy", accuracy)
 
 ## 11. Saving Our Computer’s Brain For Later (Model Persistence)
 
+<br>
+
 **Why?** After teaching, we save the computer’s knowledge to use anytime.
 **What is it?** We use a tool called pickle to remember what the computer learned.
 **Code:**
 
-```
+<br>
 
-
+```python
 import pickle
 with open("model.pkl", "wb") as f:
 pickle.dump(clf, f)
@@ -387,66 +389,28 @@ model_persisted = pickle.load(open("model.pkl", "rb"))
 y_pred2 = model_persisted.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred2)
 print("Accuracy", accuracy)
-
-
 ```
 
-<br>
+<br><br>
+
 
 ## 12. Asking The Computer To Guess For Us! (Interactive Prediction)
+
+<br>
 
 **Why?** Now you can type any message and let the computer guess the feeling!
 **What is it?** You type, it predicts using everything it learned.
 **Code:**
 
-```
+<br>
 
-
+```python
 novotexto = input("Type a message: ")
 novotextovetorizado = vectorizer.transform([novotexto])
 previsao = clf.predict(novotextovetorizado)
 label_pred = previsao
 print(label_pred)
-
-
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
