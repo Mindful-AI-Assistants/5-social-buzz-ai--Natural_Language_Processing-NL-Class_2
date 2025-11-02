@@ -188,8 +188,18 @@ This lesson introduces **vector representations for words, sentences, and docume
 <br><br>
 
 
+## [Libraries Used]()
 
+- `numpy`
+- `pandas`
+- `nltk`
+- `sklearn`
+- `gensim`
+- `safetensors`
+- `transformers`
+- `pickle`
 
+<br><br>
 
 
 
