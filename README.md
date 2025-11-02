@@ -92,9 +92,6 @@
 <br><br><br>
 
 
-
-<!--
-
 ## [Libraries Used]()
 
 
@@ -109,8 +106,8 @@
 - `transformers`
 - `pickle`
 
--->
 
+<br><br>
 
 
 ## Table of Contents
@@ -197,13 +194,15 @@ print("Cosine Similarity (Library)", cosine_similarity([A], [B]))
 
 
 
-## 4. Using Secret Codes For Words (Word Embeddings)
+## 4. [Using Secret Codes For Words (Word Embeddings)]()
 
 <br>
 
-**Why?** Computers need numbers for everything. Embeddings are like secret codes for words—each word gets its own code!
-**What is it?** We use special files or libraries to get these codes and can ask things like “who is most similar to king,” or do word puzzles.
-**Code:**
+- [**Why? **]() Computers need numbers for everything. Embeddings are like secret codes for words—each word gets its own code!
+
+- [**What is it?**]() We use special files or libraries to get these codes and can ask things like “who is most similar to king,” or do word puzzles.
+
+- [**Code:**]()
 
 <br>
 
