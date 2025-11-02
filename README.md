@@ -385,13 +385,15 @@ print("Accuracy", accuracy)
 
 <br><br>
 
-## 11. Saving Our Computer’s Brain For Later (Model Persistence)
+## 11. [Saving Our Computer’s Brain For Later (Model Persistence)]()
 
 <br>
 
-**Why?** After teaching, we save the computer’s knowledge to use anytime.
-**What is it?** We use a tool called pickle to remember what the computer learned.
-**Code:**
+- [**Why ?**]() After teaching, we save the computer’s knowledge to use anytime.
+
+- [**What is it ?**]() We use a tool called pickle to remember what the computer learned.
+
+- [**Code:**]()
 
 <br>
 
