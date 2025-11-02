@@ -270,13 +270,15 @@ print("Codes for each word:", vetores)
 <br><br>
 
 
-## 6. Getting Our Messages (Loading Data)
+## 6. [Getting Our Messages (Loading Data)]()
 
 <br>
 
-**Why?** We need messages to play with!
-**What is it?** We get tweets from a file and see what kinds of feelings they talk about.
-**Code:**
+- [**Why?** We need messages to play with!]()
+
+- [**What is it?** We get tweets from a file and see what kinds of feelings they talk about.]()
+
+- [**Code:**]()
 
 <br>
 
