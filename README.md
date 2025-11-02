@@ -293,13 +293,15 @@ print("First few messages:", df['Text'][:5])
 
 <br><br>
 
-## 7. Cleaning Up Our Messages (Text Preprocessing)
+## 7. [Cleaning Up Our Messages (Text Preprocessing)]()
 
 <br>
 
-**Why?** Some words (like “the”, “and”, “a”) don’t help. We clean them out so the computer doesn’t get confused.
-**What is it?** We use lists of *stopwords* to throw away those boring words.
-**Code:**
+- [**Why?** Some words (like “the”, “and”, “a”) don’t help. We clean them out so the computer doesn’t get confused.]()
+
+- [**What is it?** We use lists of *stopwords* to throw away those boring words.]()
+
+- [**Code:**]()
 
 <br>
 
