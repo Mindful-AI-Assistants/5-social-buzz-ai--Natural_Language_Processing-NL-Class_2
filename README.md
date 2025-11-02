@@ -324,7 +324,7 @@ import pandas as pd
 pd.DataFrame(vetores.toarray(), columns=vocab).head(5).to_excel("encoding.xlsx")
 ```
 
-]
+
 <br><br>
 
 
@@ -349,6 +349,67 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 
 
+## 10. Teaching Our Computer To Guess Feelings (Model Training)
+
+<br>
+
+**Why?** This is where we actually TEACH the computer!
+**What is it?** We use Naive Bayes—a special recipe that learns from examples.
+**Code:**
+
+<br>
+
+```python
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import accuracy_score
+clf = MultinomialNB()
+clf.fit(X_train, y_train)
+y_pred = clf.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+print("Accuracy", accuracy)
+```
+
+<br><br>
+
+## 11. Saving Our Computer’s Brain For Later (Model Persistence)
+
+**Why?** After teaching, we save the computer’s knowledge to use anytime.
+**What is it?** We use a tool called pickle to remember what the computer learned.
+**Code:**
+
+```
+
+
+import pickle
+with open("model.pkl", "wb") as f:
+pickle.dump(clf, f)
+model_persisted = pickle.load(open("model.pkl", "rb"))
+y_pred2 = model_persisted.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred2)
+print("Accuracy", accuracy)
+
+
+```
+
+<br>
+
+## 12. Asking The Computer To Guess For Us! (Interactive Prediction)
+
+**Why?** Now you can type any message and let the computer guess the feeling!
+**What is it?** You type, it predicts using everything it learned.
+**Code:**
+
+```
+
+
+novotexto = input("Type a message: ")
+novotextovetorizado = vectorizer.transform([novotexto])
+previsao = clf.predict(novotextovetorizado)
+label_pred = previsao
+print(label_pred)
+
+
+```
 
 
 
