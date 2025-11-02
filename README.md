@@ -133,20 +133,22 @@
 
 
 
-## 1. What Is This Notebook About?
+## 1. [What Is This Notebook About?]()
 
 This notebook is like a **recipe book** for teaching computers how to understand what people write or say. It shows step-by-step how to take words, turn them into numbers, teach a computer about them, and then let it guess if a message is, for example, happy or sad!
 
 
 <br><br>
 
-## 2. Playing With Numbers (Vectors)
+## 2. [Playing With Numbers (Vectors)]()
 
 <br>
 
-**Why?** Numbers help computers see words!
-**What is it?** We make some number sequences called *vectors*. Then, we add, subtract, multiply and compare them. This is the building block for more magic later.
-**Code:**
+[**Why?**]() Numbers help computers see words!
+
+[**What is it?** We make some number sequences called *vectors*](). Then, we add, subtract, multiply and compare them. This is the building block for more magic later.
+
+[**Code:**]()
 
 <br>
 
