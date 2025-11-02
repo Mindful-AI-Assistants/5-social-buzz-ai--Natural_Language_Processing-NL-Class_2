@@ -222,12 +222,53 @@ Work with real-world tweet datasets, preprocess and vectorize them.
 4. [**Classification:**]()
 Train a Naive Bayes text classifier and evaluate, save, reload, and apply it interactively.
 
+<br><br>
+
+## [Example Code Snippets (from the lesson)]()
+
 <br>
 
-## Example Code Snippets (from the lesson)
+```python
+import numpy as np
+vetor1 = np.array([1, 2, 1, 4])
+vetor2 = np.zeros(4)
+vetor3 = np.ones(4)
+print("Vetor 1:", vetor1)
+print("Vetor 2:", vetor2)
+print("Vetor 3:", vetor3)
+print("Dot product:", np.dot(vetor1, vetor3))
+```
 
+<br>
 
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+vectorizer = CountVectorizer(stop_words=stopwords)
+vetores = vectorizer.fit_transform(df['Text'])
+```
 
+<br>
+
+```python
+from sklearn.naive_bayes import MultinomialNB
+clf = MultinomialNB()
+clf.fit(X_train, y_train)
+accuracy = accuracy_score(y_test, clf.predict(X_test))
+```
+
+```python
+import pickle
+with open("model.pkl", "wb") as f:
+    pickle.dump(clf, f)
+```
+
+<br><br>
+
+## [How to Run]()
+
+- Install dependencies as shown in the notebook (`pip install ...`)
+- Prepare dataset (`TweetsMg.csv`)
+- Run the code cells sequentially in a Jupyter or Colab notebook
 
 
 
