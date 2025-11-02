@@ -190,6 +190,9 @@ This lesson introduces **vector representations for words, sentences, and docume
 
 ## [Libraries Used]()
 
+
+<br>
+
 - `numpy`
 - `pandas`
 - `nltk`
@@ -202,19 +205,24 @@ This lesson introduces **vector representations for words, sentences, and docume
 <br><br>
 
 
-## Typical Workflow
+## [Typical Workflow]()
 
-1. **Vector Arithmetic:**
+
+<br>
+
+1. [**Vector Arithmetic:**]()
 Learn operations between vectors and analyze similarities.
 
-2. **Embeddings:**
+2. [**Embeddings:**]()
 Load and use various word embedding models for vector representations.
 
-3. **Text Data Loading:**
+3. [**Text Data Loading:**]()
 Work with real-world tweet datasets, preprocess and vectorize them.
 
-4. **Classification:**
+4. [**Classification:**]()
 Train a Naive Bayes text classifier and evaluate, save, reload, and apply it interactively.
+
+<br>
 
 ## Example Code Snippets (from the lesson)
 
