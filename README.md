@@ -143,7 +143,7 @@ This notebook is like a **recipe book** for teaching computers how to understand
 
 - [**Why ?**]() Numbers help computers see words!
 
-- [**What is it?** We make some number sequences called *vectors*](). Then, we add, subtract, multiply and compare them. This is the building block for more magic later.
+- [**What is it?**]() We make some number sequences called *vectors*. Then, we add, subtract, multiply and compare them. This is the building block for more magic later.
 
 - [**Code:**]()
 
