@@ -130,7 +130,7 @@
 
 
 
-## 1. [What Is This Notebook About?]()
+## 1. [What Is This Notebook About ?]()
 
 This notebook is like a **recipe book** for teaching computers how to understand what people write or say. It shows step-by-step how to take words, turn them into numbers, teach a computer about them, and then let it guess if a message is, for example, happy or sad!
 
@@ -172,7 +172,7 @@ print("Dot Product", np.dot(vetor1, vetor3))
 
 - [**Why ?**]() To see if two words or sentences are "friends"—meaning they’re similar.
 
-- [**What is it?** We use special math called *cosine similarity*]() to compare.
+- [**What is it ?**]() We use special math called *cosine similarity* to compare.
 
 - [**Code:**]()
 
