@@ -87,7 +87,7 @@
 >
 > 
 >
-> 
+ 
 
 <br><br><br>
 
@@ -270,42 +270,13 @@ with open("model.pkl", "wb") as f:
 - Prepare dataset (`TweetsMg.csv`)
 - Run the code cells sequentially in a Jupyter or Colab notebook
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
+
+> **This lesson provides practical foundations for both traditional and modern NLP vectorization methods, text preprocessing pipelines, and supervised text classification.**
+
+
+
+
 <br><br>
 
 
