@@ -133,6 +133,59 @@
 
 
 
+## 1. What Is This Notebook About?
+
+This notebook is like a **recipe book** for teaching computers how to understand what people write or say. It shows step-by-step how to take words, turn them into numbers, teach a computer about them, and then let it guess if a message is, for example, happy or sad!
+<br>
+
+## 2. Playing With Numbers (Vectors)
+
+**Why?** Numbers help computers see words!
+**What is it?** We make some number sequences called *vectors*. Then, we add, subtract, multiply and compare them. This is the building block for more magic later.
+**Code:**
+
+```
+
+
+import numpy as np
+vetor1 = np.array([1., 2., 1., 4.])
+vetor2 = np.zeros(4)
+vetor3 = np.ones(4)
+print("Vetor 1", vetor1)
+print("Vetor 2", vetor2)
+print("Vetor 3", vetor3)
+print("Add", vetor1 + vetor3)
+print("Subtract", vetor1 - vetor3)
+print("Multiply", vetor1 * vetor3)
+print("Dot Product", np.dot(vetor1, vetor3))
+
+
+```
+
+<br>
+
+## 3. Finding Out If Two Things Are Alike (Cosine Similarity)
+
+**Why?** To see if two words or sentences are "friends"—meaning they’re similar.
+**What is it?** We use special math called *cosine similarity* to compare.
+**Code:**
+
+```
+
+
+from numpy.linalg import norm
+A = np.array()[^1][^2][^3]
+B = np.array()[^2][^3][^1]
+cos_sim = A @ B / (norm(A) * norm(B))
+print("Cosine Similarity (Math)", cos_sim)
+
+
+from sklearn.metrics.pairwise import cosine_similarity
+print("Cosine Similarity (Library)", cosine_similarity([A], [B]))
+
+
+```
+
 
 
 
