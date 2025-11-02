@@ -314,13 +314,15 @@ stopwords = nltk.corpus.stopwords.words("portuguese")
 <br><br>
 
 
-## 8. Turning Words Into Numbers (Bag of Words)
+## 8. [Turning Words Into Numbers (Bag of Words)]()
 
 <br>
 
-**Why?** Computers can only understand numbers!
-**What is it?** We use CountVectorizer to make a table where each word becomes a column and each message gets number values in those columns.
-**Code:**
+- [**Why ?**]() Computers can only understand numbers!
+
+- [**What is it ?**]() We use CountVectorizer to make a table where each word becomes a column and each message gets number values in those columns.
+
+- [**Code:**]()
 
 <br>
 
