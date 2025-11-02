@@ -111,13 +111,13 @@ This lesson introduces **vector representations for words, sentences, and docume
 <br>
 
 
-- **Cosine Similarity:**
+- [p**Cosine Similarity:**]()
     - How to measure similarity between vectors, an essential method for many NLP tasks
 
  
 <br>
       
-- **Word Embeddings:**
+- [**Word Embeddings:**]()
     - Efficient representations for words using dense vectors
     - Loading pre-trained models via safetensors, gensim, and Hugging Face
     - Exploration of available models (Word2Vec, GloVe, FastText)
@@ -125,14 +125,14 @@ This lesson introduces **vector representations for words, sentences, and docume
 
 <br>
   
-- **Embeddings in Practice:**
+- [**Embeddings in Practice:**]()
     - Finding similar words: `most_similar`
     - Word analogies (e.g., king - man + woman = queen)
 
  
 <br>
 
-- **Advanced Embeddings:**
+- [**Advanced Embeddings:**]()
     - Use of transformer models (BERT, HuggingFace)
     - Tokenization and obtaining contextual word embeddings
 
@@ -140,14 +140,14 @@ This lesson introduces **vector representations for words, sentences, and docume
 <br>
 
 
-- **Text Data Processing:**
+- [**Text Data Processing:**]()
     - Loading and exploring a text dataset (`TweetsMg.csv`) with pandas
     - Extracting columns, handling missing data, visualizing value counts
 
  
 <br>
 
-- **Text Vectorization \& Classification Pipeline:**
+- [**Text Vectorization \& Classification Pipeline:**]()
     - Preprocessing: Removing stopwords using NLTK
     - Vectorizing text with `CountVectorizer`
     - Converting text to vectors and saving the output for later use
@@ -155,36 +155,34 @@ This lesson introduces **vector representations for words, sentences, and docume
  
 <br>
 
-- **Label Encoding:**
+- [**Label Encoding:**]()
     - Factorizing text labels for model training
 
  
 <br>
 
-- **Train-Test Split:**
+- [**Train-Test Split:**]()
     - Splitting dataset for model training and evaluation
 
  
 <br>
 
-- **Model Building and Evaluation:**
+- [**Model Building and Evaluation:**]()
     - Training a multinomial Naive Bayes classifier with scikit-learn
     - Calculating classification accuracy on the test set
 
  
 <br>
 
-- **Model Persistence:**
+- [**Model Persistence:**]()
     - Saving trained models with pickle
     - Loading persisted models and testing them on new data
 
  
 <br>
 
-- **Interactive Testing:**
+- [**Interactive Testing:**]()
     - Providing code for user input to predict new example texts
-
-
 
  
 <br><br>
