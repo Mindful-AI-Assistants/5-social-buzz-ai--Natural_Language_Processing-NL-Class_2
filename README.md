@@ -361,14 +361,15 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 <br><br>
 
 
-
-## 10. Teaching Our Computer To Guess Feelings (Model Training)
+## 10. [Teaching Our Computer To Guess Feelings (Model Training)]()
 
 <br>
 
-**Why?** This is where we actually TEACH the computer!
-**What is it?** We use Naive Bayes—a special recipe that learns from examples.
-**Code:**
+- [**Why?** This is where we actually TEACH the computer!]()
+
+- [**What is it?** We use Naive Bayes—a special recipe that learns from examples.]()
+
+- [**Code:**]()
 
 <br>
 
