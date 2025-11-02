@@ -173,9 +173,11 @@ print("Dot Product", np.dot(vetor1, vetor3))
 
 <br>
 
-**Why?** To see if two words or sentences are "friends"—meaning they’re similar.
-**What is it?** We use special math called *cosine similarity* to compare.
-**Code:**
+- [**Why?**]() To see if two words or sentences are "friends"—meaning they’re similar.
+
+- [**What is it?** We use special math called *cosine similarity*]() to compare.
+
+- [**Code:**]()
 
 <br>
 
