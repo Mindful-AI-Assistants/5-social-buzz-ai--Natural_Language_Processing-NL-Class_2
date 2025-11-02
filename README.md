@@ -193,6 +193,98 @@ print("Cosine Similarity (Library)", cosine_similarity([A], [B]))
 
 
 
+## 4. Using Secret Codes For Words (Word Embeddings)
+
+<br>
+
+**Why?** Computers need numbers for everything. Embeddings are like secret codes for words—each word gets its own code!
+**What is it?** We use special files or libraries to get these codes and can ask things like “who is most similar to king,” or do word puzzles.
+**Code:**
+
+<br>
+
+```python
+!pip install safetensors gensim
+from safetensors.torch import load_file
+
+
+# Loads word codes
+
+
+tensors = load_file('embeddings.safetensors')
+vectors = tensors['embeddings']  \# torch.Tensor
+print(vectors.shape)
+
+
+from gensim.models import KeyedVectors
+word2vec = KeyedVectors.load_word2vec_format('cbows50.txt')
+word_vec = word2vec['computer']
+print("Code for computer:", word_vec)
+
+
+import gensim.downloader
+print("Models we can use:", list(gensim.downloader.info()['models'].keys()))
+word2vec = gensim.downloader.load('glove-twitter-50')
+print("Are man and boy similar?", word2vec.similarity('man', 'boy'))
+print("Who is like computer?", word2vec.most_similar('computer', topn=5))
+print("Who’s the queen puzzle answer?", word2vec.most_similar(positive=['king', 'woman'], negative=['man'], topn=1))
+```
+
+<br><br>
+
+## 5. Super-Secret Codes: Transformers and BERT
+
+<br>
+
+**Why?** Sometimes the meaning of a word changes depending on the sentence. These super-secret codes work like magic—they change if the word is used differently!
+**What is it?** We use *transformers*, like BERT, to get codes (embeddings) for each word in its special context.
+**Code:**
+
+<br>
+
+```python
+!pip install transformers
+import torch
+from transformers import AutoTokenizer, AutoModel
+device = 'cpu'
+tokenizer = AutoTokenizer.from_pretrained('neuralmind/bert-large-portuguese-cased', do_lower_case=False)
+bert = AutoModel.from_pretrained('neuralmind/bert-large-portuguese-cased').to(device)
+
+
+texto = "Eu vou ao banco pagar a conta hoje."
+input_ids = tokenizer.encode(texto, return_tensors='pt')
+wordpieces = tokenizer.convert_ids_to_tokens(input_ids)
+subwords_idx = [i for i, wordpiece in enumerate(wordpieces) if not wordpiece.startswith("\#\#")]
+input_ids = input_ids.to(device)
+with torch.no_grad():
+outs = bert(input_ids)
+vetores = outs[0, subwords_idx]
+print("Codes for each word:", vetores)
+```
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -212,10 +304,6 @@ print("Cosine Similarity (Library)", cosine_similarity([A], [B]))
 
 
 <br><br>
-
-
-
-<br>
 
 
 ## 💌 [Let the data flow... Ping Me !](mailto:fabicampanari@proton.me)
