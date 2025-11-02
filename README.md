@@ -305,6 +305,54 @@ stopwords = nltk.corpus.stopwords.words("portuguese")
 <br><br>
 
 
+## 8. Turning Words Into Numbers (Bag of Words)
+
+<br>
+
+**Why?** Computers can only understand numbers!
+**What is it?** We use CountVectorizer to make a table where each word becomes a column and each message gets number values in those columns.
+**Code:**
+
+<br>
+
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+vectorizer = CountVectorizer(stop_words=stopwords)
+vetores = vectorizer.fit_transform(df['Text'])
+vocab = vectorizer.get_feature_names_out()
+import pandas as pd
+pd.DataFrame(vetores.toarray(), columns=vocab).head(5).to_excel("encoding.xlsx")
+```
+
+]
+<br><br>
+
+
+## 9. Splitting Our Messages (Training and Testing)
+
+<br>
+
+**Why?** So we can teach the computer with some messages and test it with others!
+**What is it?** We change feelings from words (“happy”, “sad”) to numbers and split the messages.
+**Code:**
+
+<br>
+
+```python
+X = vetores
+y, label = pd.factorize(df['Classificacao'])
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+```
+
+<br><br>
+
+
+
+
+
+
+
 
 
 
