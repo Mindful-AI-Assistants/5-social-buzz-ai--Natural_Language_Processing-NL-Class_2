@@ -78,14 +78,12 @@
 
 > [!TIP]
 >
-> * [Access](https://github.com/Mindful-AI-Assistants/4-social-buzz-ai--Natural_Language_Processing-NL-Class_1/blob/7a5b1e2ad8bee693c6842a3b79a38c3d7d668239/1-Workbook_Natural%20Language%20Processing%20-%20Class%201.pdf)  Workbook - (Class 1)
+> * [Access](https://github.com/Mindful-AI-Assistants/4-social-buzz-ai--Natural_Language_Processing-NL-Class_1/blob/7a5b1e2ad8bee693c6842a3b79a38c3d7d668239/1-Workbook_Natural%20Language%20Processing%20-%20Class%201.pdf)  Workbook - (Class 1 and 2)
 > 
 > * [Access](https://github.com/Mindful-AI-Assistants/4-social-buzz-ai--Natural_Language_Processing-NL-Class_1/blob/1170f52a88b432225e216b3519810285d65b3066/1_%F0%9F%87%AC%F0%9F%87%A7_NLP_Pre_Processing_ENGLISH.ipynb):  🇬🇧 1- NLP_Pre_Processing_ENGLISH
 >
 > * [Access](https://github.com/Mindful-AI-Assistants/4-social-buzz-ai--Natural_Language_Processing-NL-Class_1/blob/f395b6b6ffba24b65dd6e593e4bb3b3b899301e0/1_%F0%9F%87%A7%F0%9F%87%B7NLP_PreProcessing_Portuguese.ipynb):   🇧🇷 1-Code NLP_Pre_Processing_Portuguese
 >
->
-> * [Access]():  Workbook - (Class 2)
 >
 > 
 >
