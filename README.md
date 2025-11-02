@@ -112,22 +112,24 @@
 -->
 
 
+
 ## Table of Contents
 
-1. What Is This Notebook About? <br>
-2. Playing With Numbers (Vectors) <br>
-3. Finding Out If Two Things Are Alike (Cosine Similarity) <br>
-4. Using Secret Codes For Words (Word Embeddings) <br>
-5. Super-Secret Codes: Transformers and BERT <br>
-6. Getting Our Messages (Loading Data) <br>
-7. Cleaning Up Our Messages (Text Preprocessing) <br>
-8. Turning Words Into Numbers (Bag of Words) <br>
-9. Splitting Our Messages (Training and Testing) <br>
-10. Teaching Our Computer To Guess Feelings (Model Training) <br>
-11. Saving Our Computer’s Brain For Later (Model Persistence) <br>
-12. Asking The Computer To Guess For Us! (Interactive Prediction) <br>
+1. [What Is This Notebook About?](#what-is-this-notebook-about)
+2. [Playing With Numbers (Vectors)](#playing-with-numbers-vectors)
+3. [Finding Out If Two Things Are Alike (Cosine Similarity)](#finding-out-if-two-things-are-alike-cosine-similarity)
+4. [Using Secret Codes For Words (Word Embeddings)](#using-secret-codes-for-words-word-embeddings)
+5. [Super-Secret Codes: Transformers and BERT](#super-secret-codes-transformers-and-bert)
+6. [Getting Our Messages (Loading Data)](#getting-our-messages-loading-data)
+7. [Cleaning Up Our Messages (Text Preprocessing)](#cleaning-up-our-messages-text-preprocessing)
+8. [Turning Words Into Numbers (Bag of Words)](#turning-words-into-numbers-bag-of-words)
+9. [Splitting Our Messages (Training and Testing)](#splitting-our-messages-training-and-testing)
+10. [Teaching Our Computer To Guess Feelings (Model Training)](#teaching-our-computer-to-guess-feelings-model-training)
+11. [Saving Our Computer’s Brain For Later (Model Persistence)](#saving-our-computers-brain-for-later-model-persistence)
+12. [Asking The Computer To Guess For Us! (Interactive Prediction)](#asking-the-computer-to-guess-for-us-interactive-prediction)
 
-<br>
+
+<br><br>
 
 
 
