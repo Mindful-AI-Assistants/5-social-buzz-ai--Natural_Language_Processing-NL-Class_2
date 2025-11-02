@@ -235,13 +235,15 @@ print("Who’s the queen puzzle answer?", word2vec.most_similar(positive=['king'
 
 <br><br>
 
-## 5. Super-Secret Codes: Transformers and BERT
+## 5. [Super-Secret Codes: Transformers and BERT]()
 
 <br>
 
-**Why?** Sometimes the meaning of a word changes depending on the sentence. These super-secret codes work like magic—they change if the word is used differently!
-**What is it?** We use *transformers*, like BERT, to get codes (embeddings) for each word in its special context.
-**Code:**
+- [**Why?** Sometimes the meaning of a word changes depending on the sentence. These super-secret codes work like magic—they change if the word is used differently!
+
+- [**What is it?** We use *transformers*, like BERT, to get codes (embeddings) for each word in its special context.
+
+- [**Code:**]()
 
 <br>
 
