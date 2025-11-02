@@ -339,13 +339,15 @@ pd.DataFrame(vetores.toarray(), columns=vocab).head(5).to_excel("encoding.xlsx")
 <br><br>
 
 
-## 9. Splitting Our Messages (Training and Testing)
+## 9. [Splitting Our Messages (Training and Testing)]()
 
 <br>
 
-**Why?** So we can teach the computer with some messages and test it with others!
-**What is it?** We change feelings from words (“happy”, “sad”) to numbers and split the messages.
-**Code:**
+- [**Why ?**]() So we can teach the computer with some messages and test it with others!
+
+- [**What is it ?**]() We change feelings from words (“happy”, “sad”) to numbers and split the messages.
+
+- [**Code:**]()
 
 <br>
 
