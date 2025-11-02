@@ -166,7 +166,7 @@ print("Dot Product", np.dot(vetor1, vetor3))
 
 <br><br>
 
-## 3. Finding Out If Two Things Are Alike (Cosine Similarity)
+## 3. [Finding Out If Two Things Are Alike (Cosine Similarity)]()
 
 <br>
 
@@ -198,7 +198,7 @@ print("Cosine Similarity (Library)", cosine_similarity([A], [B]))
 
 <br>
 
-- [**Why? **]() Computers need numbers for everything. Embeddings are like secret codes for words—each word gets its own code!
+- [**Why?**]() Computers need numbers for everything. Embeddings are like secret codes for words—each word gets its own code!
 
 - [**What is it?**]() We use special files or libraries to get these codes and can ask things like “who is most similar to king,” or do word puzzles.
 
