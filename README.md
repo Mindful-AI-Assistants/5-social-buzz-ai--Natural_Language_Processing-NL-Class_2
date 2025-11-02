@@ -10,9 +10,6 @@
 # <p align="center"> 5- Social [Buzz AI]() - Natural Language Processing (NLP) - [Class 2]()
 
 
-<br>
-
-A repository for research, implementation, and best practices with Gradient Boosting methods (GBM, XGBoost, LightGBM), H2O AutoML, and robust strategies for modeling extreme class imbalance ("Low Default") in data science for finance and risk.
 
 <br><br>
 
