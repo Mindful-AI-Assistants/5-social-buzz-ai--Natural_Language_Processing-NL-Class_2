@@ -410,13 +410,15 @@ print("Accuracy", accuracy)
 <br><br>
 
 
-## 12. Asking The Computer To Guess For Us! (Interactive Prediction)
+## 12. [Asking The Computer To Guess For Us! (Interactive Prediction)]()
 
 <br>
 
-**Why?** Now you can type any message and let the computer guess the feeling!
-**What is it?** You type, it predicts using everything it learned.
-**Code:**
+- [**Why ?**]() Now you can type any message and let the computer guess the feeling!
+
+- [**What is it ?**]() You type, it predicts using everything it learned.
+
+- [**Code:**]()
 
 <br>
 
