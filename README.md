@@ -93,15 +93,17 @@
 
 
 
-## Overview
+## [Overview]()
 
 This lesson introduces **vector representations for words, sentences, and documents**, covering both foundational mathematical operations and modern NLP techniques. The code is implemented in Python, utilizing libraries such as NumPy, scikit-learn, gensim, transformers, and pandas.  
 
 <br>
 
-## Key Topics Covered
+## [Key Topics Covered]()
 
-- **Basic Vector Operations:**
+<br>
+
+- [**Basic Vector Operations:**]()
     - Creation of vectors using NumPy
     - Addition, subtraction, and element-wise multiplication of vectors
     - Dot product and cosine similarity calculations
