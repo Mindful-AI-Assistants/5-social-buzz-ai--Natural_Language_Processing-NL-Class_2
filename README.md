@@ -37,7 +37,7 @@
 
 > [!TIP]
 >
->  This repository 2-social-buzz-ai-GBoost-and-LowDefault-Modeling is part of the main project 1-social-buzz-ai-main.
+>  This repository is part of the main project 1-social-buzz-ai-main.
 >  To explore all related materials, analyses, and notebooks, visit the main repository 
 >
 > * [1-social-buzz-ai-main](https://github.com/Mindful-AI-Assistants/1-social-buzz-ai-main)
@@ -50,10 +50,11 @@
 >
 
 
-<!--Confidentiality Statement-->
-
 
 <br><br>
+
+
+<!--Confidentiality Statement-->
 
 
 > [!IMPORTANT]
